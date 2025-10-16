@@ -1,0 +1,22 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 2.4fr 1fr;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.videoContent {
+    width: 100%;
+}
+
+
+.otherContent {
+    background-color: #3f5d5e;
+}

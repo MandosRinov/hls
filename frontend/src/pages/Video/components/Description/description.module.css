@@ -1,0 +1,23 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.video_title {
+    margin-top: 5px;
+}
+
+.video_author {
+    display: flex;
+}
+
+.video_author > h3 {
+    color: #b3b2b2;
+}
+
+.video_description {
+
+}
+

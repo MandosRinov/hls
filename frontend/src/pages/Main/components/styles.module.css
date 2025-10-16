@@ -1,0 +1,34 @@
+
+
+.header_container {
+    height: 60px;
+    background-color: var(--primary-container-color);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.header_logo_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_logo_container .logo {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 5px;
+    user-select: none;
+}
+
+.header_search {
+    display: flex;
+    padding: 10px 0px;
+    /*width: 800px;*/
+    justify-content: center;
+}
+
+.header_menu {
+
+}
